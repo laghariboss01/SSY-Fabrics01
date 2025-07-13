@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SSY Fabrics - Premium Unstitched Fabrics</title>
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600&display=swap"
+    rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      scroll-behavior: smooth;
+      background: linear-gradient(to right, rgb(235, 111, 11), rgb(255, 192, 149));
+      color: #4a3a2a;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-family: 'Playfair Display', serif;
+      color: #3a2c1d;
+    }
+
+    @keyframes fadeInUp {
+      0% {
+        opacity: 0;
+        transform: translateY(40px);
+      }
+
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .fade-section {
+      animation: fadeInUp 1s ease forwards;
+      opacity: 0;
+    }
+
+    .fade-delay-1 {
+      animation-delay: 0.2s;
+    }
+
+    .fade-delay-2 {
+      animation-delay: 0.4s;
+    }
+
+    .fade-delay-3 {
+      animation-delay: 0.6s;
+    }
+
+    .fade-delay-4 {
+      animation-delay: 0.8s;
+    }
+
+    .fade-delay-5 {
+      animation-delay: 1s;
+    }
+
+    .section-bg {
+      background: linear-gradient(135deg, #fff8dc, #ffe4b5, #ffd700);
+      padding: 2rem 1rem;
+      border-radius: 1.5rem;
+      margin-bottom: 2rem;
+    }
+
+    .highlight-box {
+      background: rgba(255, 255, 255, 0.85);
+      padding: 1rem;
+      border-radius: 1rem;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      color: #5a4a3a;
+    }
+
+    /* Text color adjustments */
+    .text-primary {
+      color: #5a3921;
+    }
+
+    .text-secondary {
+      color: #7a5c3c;
+    }
+
+    .text-accent {
+      color: #c77a21;
+    }
+
+    .text-light {
+      color: #f8f1e5;
+    }
+
+    .text-dark {
+      color: #3a2c1d;
+    }
+
+    /* Button styles */
+    .btn-primary {
+      background-color: #c77a21;
+      color: white;
+    }
+
+    .btn-primary:hover {
+      background-color: #a5661c;
+    }
+
+    .btn-secondary {
+      background-color: #f8f1e5;
+      color: #5a3921;
+    }
+
+    .btn-secondary:hover {
+      background-color: #e8d9c5;
+    }
+
+    /* Navigation */
+    nav a {
+      color: #5a3921;
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      color: #c77a21;
+    }
+  </style>
+
+</head>
+
+<body>
+  <header class="text-gray-800 body-font">
+    <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+      <a class="flex title-font font-medium items-center text-primary mb-4 md:mb-0">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round"
+          stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-orange-600 rounded-full"
+          viewBox="0 0 24 24">
+          <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+        </svg>
+        <span class="ml-3 text-xl">SSY-Fabrics</span>
+      </a>
+      <nav
+        class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-orange-200 flex flex-wrap items-center text-base justify-center">
+        <a href="#home" class="mr-5 hover:text-accent">Home</a>
+        <a href="#as" class="mr-5 hover:text-accent">Available Stuff</a>
+        <a href="#up" class="mr-5 hover:text-accent">Coming Soon</a>
+        <a href="#co" class="mr-5 hover:text-accent">Contacts</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="text-secondary body-font" id="home">
+    <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+      <div
+        class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-dark">Before they sold out
+          <br class="hidden lg:inline-block">Un-Stitched Fabrics
+        </h1>
+        <p class="mb-8 leading-relaxed text-primary">Discover elegance and comfort with SSY Fabrics' premium unstitched
+          collection! Crafted with the finest materials like lawn and cotton, our unstitched fabrics offer endless
+          possibilities to style your dream outfit. Whether for everyday wear or special occasions, SSY Fabrics
+          brings you vibrant prints, rich colors, and luxurious textures. Paired with lawn or voile dupattas, each
+          piece is made to inspire. Customize your look and express your style with SSY – where fashion meets
+          freedom.
+        </p>
+        <div class="flex justify-center"></div>
+      </div>
+      <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+        <img class="object-cover object-center rounded-lg shadow-xl" alt="hero" src="img1.png">
+      </div>
+    </div>
+  </section>
+  <hr class="border-orange-200">
+  <section id="as" class="text-secondary body-font">
+    <div class="container px-5 py-24 mx-auto flex flex-wrap">
+      <!-- Lawn -->
+      <div class="flex relative pt-10 pb-20 sm:items-center md:w-2/3 mx-auto">
+        <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
+          <div class="h-full w-1 bg-orange-200 pointer-events-none"></div>
+        </div>
+        <div
+          class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-orange-600 text-white relative z-10 title-font font-medium text-sm">
+          1</div>
+        <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+          <div
+            class="flex-shrink-0 w-24 h-24 bg-orange-100 text-orange-600 rounded-full inline-flex items-center justify-center">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              class="w-12 h-12" viewBox="0 0 24 24">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+            </svg>
+          </div>
+          <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
+            <h2 class="font-medium title-font text-dark mb-1 text-xl">Lawn</h2>
+            <p class="leading-relaxed text-primary">Our unstitched lawn offers premium quality, vibrant prints, and
+              breathable
+              comfort—perfect for creating your unique, stylish summer look.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Shah-Jahan Latha -->
+      <div class="flex relative pb-20 sm:items-center md:w-2/3 mx-auto">
+        <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
+          <div class="h-full w-1 bg-orange-200 pointer-events-none"></div>
+        </div>
+        <div
+          class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-orange-600 text-white relative z-10 title-font font-medium text-sm">
+          2</div>
+        <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+          <div
+            class="flex-shrink-0 w-24 h-24 bg-orange-100 text-orange-600 rounded-full inline-flex items-center justify-center">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              class="w-12 h-12" viewBox="0 0 24 24">
+              <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+            </svg>
+          </div>
+          <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
+            <h2 class="font-medium title-font text-dark mb-1 text-xl">Shah-Jahan Latha</h2>
+            <p class="leading-relaxed text-primary">
+              Experience the royal touch with Shah Jahan Latha in pure white, crafted especially for men. This premium
+              unstitched fabric offers unmatched softness, smooth texture, and a luxurious finish—perfect for elegant
+              shalwar kameez or kurta wear. Designed for those who appreciate class and comfort, our white Shah Jahan
+              Latha reflects timeless sophistication and refined style. Ideal for festive, formal, or daily wear—
+              <strong class="text-accent">elevate your wardrobe with SSY Fabrics' finest for men.</strong>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Soft Cotton -->
+      <div class="flex relative pb-20 sm:items-center md:w-2/3 mx-auto">
+        <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
+          <div class="h-full w-1 bg-orange-200 pointer-events-none"></div>
+        </div>
+        <div
+          class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-orange-600 text-white relative z-10 title-font font-medium text-sm">
+          3</div>
+        <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+          <div
+            class="flex-shrink-0 w-24 h-24 bg-orange-100 text-orange-600 rounded-full inline-flex items-center justify-center">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              class="w-12 h-12" viewBox="0 0 24 24">
+              <circle cx="12" cy="5" r="3"></circle>
+              <path d="M12 22V8M5 12H2a10 10 0 0020 0h-3"></path>
+            </svg>
+          </div>
+          <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
+            <h2 class="font-medium title-font text-dark mb-1 text-xl">Soft cotton</h2>
+            <p class="leading-relaxed text-primary">Experience ultimate comfort with our soft cotton unstitched
+              fabrics—lightweight,
+              breathable, and perfect for timeless everyday elegance.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Cotton -->
+      <div class="flex relative pb-10 sm:items-center md:w-2/3 mx-auto">
+        <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
+          <div class="h-full w-1 bg-orange-200 pointer-events-none"></div>
+        </div>
+        <div
+          class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-orange-600 text-white relative z-10 title-font font-medium text-sm">
+          4</div>
+        <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+          <div
+            class="flex-shrink-0 w-24 h-24 bg-orange-100 text-orange-600 rounded-full inline-flex items-center justify-center">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              class="w-12 h-12" viewBox="0 0 24 24">
+              <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+              <circle cx="12" cy="7" r="4"></circle>
+            </svg>
+          </div>
+          <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
+            <h2 class="font-medium title-font text-dark mb-1 text-xl">Cotton</h2>
+            <p class="leading-relaxed text-primary">Our unstitched cotton collection combines softness, durability, and
+              elegant
+              designs—ideal for comfortable, stylish wear in every season.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <hr class="border-orange-200">
+  <section class="text-secondary body-font">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="flex flex-col text-center w-full mb-20">
+        <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-dark">Our Brands</h1>
+        <p class="lg:w-2/3 mx-auto leading-relaxed text-primary">Premium unstitched lawn, latha, and cotton fabrics —
+          soft,
+          stylish, breathable, and perfect for every occasion.</p>
+      </div>
+      <div class="flex flex-wrap -m-2">
+        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+          <div class="h-full flex items-center border-orange-200 border p-4 rounded-lg bg-orange-50">
+            <img alt="team" class="w-16 h-16 bg-orange-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+              src="img2.png">
+            <div class="flex-grow">
+              <h2 class="text-dark title-font font-medium">Khaadi</h2>
+              <p class="text-primary">The ultimate fabric at whole sale</p>
+            </div>
+          </div>
+        </div>
+        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+          <div class="h-full flex items-center border-orange-200 border p-4 rounded-lg bg-orange-50">
+            <img alt="team" class="w-16 h-16 bg-orange-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+              src="img3.jpg">
+            <div class="flex-grow">
+              <h2 class="text-dark title-font font-medium">Shah-Jahan Latha</h2>
+              <p class="text-primary">White Emperor like it's name</p>
+            </div>
+          </div>
+        </div>
+        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+          <div class="h-full flex items-center border-orange-200 border p-4 rounded-lg bg-orange-50">
+            <img alt="team" class="w-16 h-16 bg-orange-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+              src="img4.jpg">
+            <div class="flex-grow">
+              <h2 class="text-dark title-font font-medium">Bin saeed</h2>
+              <p class="text-primary">Three/two-piece ultimate stuf</p>
+            </div>
+          </div>
+        </div>
+        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+          <div class="h-full flex items-center border-orange-200 border p-4 rounded-lg bg-orange-50">
+            <img alt="team" class="w-16 h-16 bg-orange-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+              src="img5.jpg">
+            <div class="flex-grow">
+              <h2 class="text-dark title-font font-medium">Sobia Waseem</h2>
+              <p class="text-primary">Elegant,luxurious,traditional.</p>
+            </div>
+          </div>
+        </div>
+        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+          <div class="h-full flex items-center border-orange-200 border p-4 rounded-lg bg-orange-50">
+            <img alt="team" class="w-16 h-16 bg-orange-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+              src="img6.png">
+            <div class="flex-grow">
+              <h2 class="text-dark title-font font-medium">Sapphire</h2>
+              <p class="text-primary">Affordable luxury fashion</p>
+            </div>
+          </div>
+        </div>
+        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+          <div class="h-full flex items-center border-orange-200 border p-4 rounded-lg bg-orange-50">
+            <img alt="team" class="w-16 h-16 bg-orange-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+              src="img7.jpg">
+            <div class="flex-grow">
+              <h2 class="text-dark title-font font-medium">Safina</h2>
+              <p class="text-primary">Premium fabrics and elegant, timeless designs</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <hr class="border-orange-200">
+  <section class="text-secondary body-font">
+    <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+      <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+        <img class="object-cover object-center rounded-lg shadow-xl" alt="hero" src="img8i.jpg">
+      </div>
+      <div
+        class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-dark">Premium Quality
+          <br class="hidden lg:inline-block">Unstitched Fabrics
+        </h1>
+        <p class="mb-8 leading-relaxed text-primary">SSY Fabrics brings you the finest collection of premium unstitched
+          fabrics, perfect for creating custom outfits that reflect your unique style. Our selection includes luxurious
+          lawn, soft cotton, and elegant latha fabrics in a variety of colors and prints.</p>
+        <div class="flex justify-center">
+          <button
+            class="btn-primary inline-flex text-white border-0 py-2 px-6 focus:outline-none hover:bg-orange-700 rounded text-lg">
+            View Collection
+          </button>
+          <button class="btn-secondary ml-4 inline-flex border-0 py-2 px-6 focus:outline-none rounded text-lg">
+            Learn More
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <hr class="border-black-200" />
+  <section id="up" class="text-gray-600 body-font">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="text-center mb-20">
+        <h1 class="sm:text-3xl text-2xl font-medium text-center title-font text-gray-900 mb-4">The upcomming stuf....
+        </h1>
+        <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">Get ready for an exclusive wave of elegance with
+          our upcoming SSY Fabrics collection! From premium unstitched luxury lawns to chic ready-to-wear styles, we're
+          launching bold patterns, rich textures, and festive hues. Stay tuned for unmatched fashion, modern cuts, and
+          affordable glam – crafted just for you!</p>
+      </div>
+      <div class="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
+        <div class="p-2 sm:w-1/2 w-full">
+          <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
+              class="text-yellow-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+              <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+              <path d="M22 4L12 14.01l-3-3"></path>
+            </svg>
+            <span class="title-font font-medium">Alkaram Studio</span>
+          </div>
+        </div>
+        <div class="p-2 sm:w-1/2 w-full">
+          <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
+              class="text-yellow-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+              <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+              <path d="M22 4L12 14.01l-3-3"></path>
+            </svg>
+            <span class="title-font font-medium">Limelight</span>
+          </div>
+        </div>
+        <div class="p-2 sm:w-1/2 w-full">
+          <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
+              class="text-yellow-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+              <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+              <path d="M22 4L12 14.01l-3-3"></path>
+            </svg>
+            <span class="title-font font-medium">Bonanza Satrangi</span>
+          </div>
+        </div>
+        <div class="p-2 sm:w-1/2 w-full">
+          <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
+              class="text-yellow-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+              <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+              <path d="M22 4L12 14.01l-3-3"></path>
+            </svg>
+            <span class="title-font font-medium">Nishat Linen</span>
+          </div>
+        </div>
+        <div class="p-2 sm:w-1/2 w-full">
+          <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
+              class="text-yellow-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+              <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+              <path d="M22 4L12 14.01l-3-3"></path>
+            </svg>
+            <span class="title-font font-medium">Maria B.</span>
+          </div>
+        </div>
+        <div class="p-2 sm:w-1/2 w-full">
+          <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
+              class="text-yellow-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+              <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+              <path d="M22 4L12 14.01l-3-3"></path>
+            </svg>
+            <span class="title-font font-medium">Generation</span>
+          </div>
+        </div>
+      </div>
+      <button
+        class="flex mx-auto mt-16 text-white bg-yellow-500 border-0 py-2 px-8 focus:outline-none hover:bg-yellow-600 rounded text-lg">Button</button>
+    </div>
+  </section>
+  <hr class="border-black-200" />
+  <section class="text-secondary body-font" style="background: linear-gradient(to right, #fff8dc, #ffe4b5, #ffd700);">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="flex flex-col text-center w-full mb-20">
+        <h1 class="sm:text-4xl text-3xl font-bold title-font mb-4 text-dark uppercase">Brands of SSY Fabrics</h1>
+        <p class="lg:w-2/3 mx-auto leading-relaxed text-primary font-medium">
+          Explore top luxury brands offered by SSY Fabrics: premium quality, modern designs & unbeatable elegance.
+        </p>
+      </div>
+      <div class="lg:w-2/3 w-full mx-auto overflow-auto">
+        <table class="table-auto w-full text-left whitespace-no-wrap bg-white shadow-md rounded-lg">
+          <thead>
+            <tr class="bg-orange-200 text-dark">
+              <th class="px-4 py-3 title-font tracking-wider font-semibold text-sm rounded-tl rounded-bl">Brand</th>
+              <th class="px-4 py-3 title-font tracking-wider font-semibold text-sm">Style</th>
+              <th class="px-4 py-3 title-font tracking-wider font-semibold text-sm">Popularity</th>
+              <th class="px-4 py-3 title-font tracking-wider font-semibold text-sm">Starting Price</th>
+              <th class="w-10 title-font tracking-wider font-semibold text-sm rounded-tr rounded-br"></th>
+            </tr>
+          </thead>
+          <tbody class="text-primary font-medium">
+            <tr class="hover:bg-orange-50 transition duration-300">
+              <td class="px-4 py-3">Sana Safinaz</td>
+              <td class="px-4 py-3">Unstitched</td>
+              <td class="px-4 py-3 text-orange-600">★★★★★</td>
+              <td class="px-4 py-3 text-lg text-dark">Rs. 3,950</td>
+              <td class="w-10 text-center"><input name="brand" type="radio"></td>
+            </tr>
+            <tr class="border-t border-orange-200 hover:bg-orange-50 transition duration-300">
+              <td class="px-4 py-3">Sobia Waseem</td>
+              <td class="px-4 py-3">Unstitched</td>
+              <td class="px-4 py-3 text-orange-600">★★★★☆</td>
+              <td class="px-4 py-3 text-lg text-dark">Rs. 5,200</td>
+              <td class="w-10 text-center"><input name="brand" type="radio"></td>
+            </tr>
+            <tr class="border-t border-orange-200 hover:bg-orange-50 transition duration-300">
+              <td class="px-4 py-3">Sapphire</td>
+              <td class="px-4 py-3">Unstitched</td>
+              <td class="px-4 py-3 text-orange-600">★★★★☆</td>
+              <td class="px-4 py-3 text-lg text-dark">Rs. 2,800</td>
+              <td class="w-10 text-center"><input name="brand" type="radio"></td>
+            </tr>
+            <tr class="border-t border-b border-orange-200 hover:bg-orange-50 transition duration-300">
+              <td class="px-4 py-3">Gul Ahmed</td>
+              <td class="px-4 py-3">Unstitched</td>
+              <td class="px-4 py-3 text-orange-600">★★★☆☆</td>
+              <td class="px-4 py-3 text-lg text-dark">Rs. 2,400</td>
+              <td class="w-10 text-center"><input name="brand" type="radio"></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="flex pl-4 mt-6 lg:w-2/3 w-full mx-auto">
+        <a href="#products" class="text-accent font-bold inline-flex items-center md:mb-2 lg:mb-0 hover:underline">
+          View Products
+          <svg fill="none" stroke="currentColor" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14M12 5l7 7-7 7" />
+          </svg>
+        </a>
+        <button
+          class="btn-primary flex ml-auto text-white border-0 py-2 px-6 rounded-xl shadow-md transition duration-300">
+          Shop Now
+        </button>
+      </div>
+    </div>
+  </section>
+  <hr class="border-orange-200">
+  <section  id="co" class="text-secondary body-font relative">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="flex flex-col text-center w-full mb-12">
+        <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-dark">Contact Us</h1>
+        <p class="lg:w-2/3 mx-auto leading-relaxed text-primary">For any queries, reach us directly via email or visit
+          us.</p>
+      </div>
+      <div class="lg:w-1/2 md:w-2/3 mx-auto">
+        <div class="p-2 w-full text-center">
+          <a class="text-accent text-lg font-medium">ssyfabricsofficial@gmail.com</a>
+          <p class="leading-normal my-5 text-primary">
+            Main bahawalpur city,near Zoo<br>
+            Punjab,Pakistan
+          </p>
+        </div>
+        <div class="p-2 w-full text-center">
+          <span class="inline-flex justify-center">
+            <a class="text-primary hover:text-accent">
+              <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5"
+                viewBox="0 0 24 24">
+                <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+              </svg>
+            </a>
+            <a class="ml-4 text-primary hover:text-accent">
+              <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5"
+                viewBox="0 0 24 24">
+                <path
+                  d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                </path>
+              </svg>
+            </a>
+            <a class="ml-4 text-primary hover:text-accent">
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                class="w-5 h-5" viewBox="0 0 24 24">
+                <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+              </svg>
+            </a>
+            <a class="ml-4 text-primary hover:text-accent">
+              <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5"
+                viewBox="0 0 24 24">
+                <path
+                  d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                </path>
+              </svg>
+            </a>
+          </span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <hr class="border-orange-200">
+  <footer class="text-secondary body-font" style="background: linear-gradient(to right, #fff8dc, #ffe4b5, #ffd700);">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="flex flex-wrap md:text-left text-center order-first">
+        <div class="lg:w-1/4 md:w-1/2 w-full px-4 fade-section">
+          <h2 class="title-font font-medium text-dark tracking-widest text-sm mb-3">CATEGORIES</h2>
+          <nav class="list-none mb-10">
+            <li><a class="text-primary hover:text-accent">Unstitched Fabrics</a></li>
+            <li><a class="text-primary hover:text-accent">Lawn Collection</a></li>
+            <li><a class="text-primary hover:text-accent">Cotton Collection</a></li>
+            <li><a class="text-primary hover:text-accent">Latha Collection</a></li>
+          </nav>
+        </div>
+        <div class="lg:w-1/4 md:w-1/2 w-full px-4 fade-section">
+          <h2 class="title-font font-medium text-dark tracking-widest text-sm mb-3">BRANDS</h2>
+          <nav class="list-none mb-10">
+            <li><a class="text-primary hover:text-accent">Sana Safinaz</a></li>
+            <li><a class="text-primary hover:text-accent">Sobia Waseem</a></li>
+            <li><a class="text-primary hover:text-accent">Sapphire</a></li>
+            <li><a class="text-primary hover:text-accent">Gul Ahmed</a></li>
+          </nav>
+        </div>
+        <div class="lg:w-1/4 md:w-1/2 w-full px-4 fade-section">
+          <h2 class="title-font font-medium text-dark tracking-widest text-sm mb-3">CUSTOMER SERVICE</h2>
+          <nav class="list-none mb-10">
+            <li><a class="text-primary hover:text-accent">Contact Us</a></li>
+            <li><a class="text-primary hover:text-accent">Returns Policy</a></li>
+            <li><a class="text-primary hover:text-accent">Shipping Info</a></li>
+            <li><a class="text-primary hover:text-accent">FAQs</a></li>
+          </nav>
+        </div>
+        <div class="lg:w-1/4 md:w-1/2 w-full px-4 fade-section">
+          <h2 class="title-font font-medium text-dark tracking-widest text-sm mb-3">SUBSCRIBE</h2>
+          <div
+            class="flex xl:flex-nowrap md:flex-nowrap lg:flex-wrap flex-wrap justify-center items-end md:justify-start">
+            <div class="relative w-40 sm:w-auto xl:mr-4 lg:mr-0 sm:mr-4 mr-2">
+              <label for="footer-field" class="leading-7 text-sm text-primary">Email Address</label>
+              <input type="text" id="footer-field" name="footer-field"
+                class="w-full bg-orange-50 bg-opacity-50 rounded border border-orange-300 focus:bg-transparent focus:ring-2 focus:ring-orange-200 focus:border-orange-500 text-base outline-none text-primary py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+            </div>
+            <button
+              class="btn-primary inline-flex text-white border-0 py-2 px-6 focus:outline-none hover:bg-orange-700 rounded text-lg">
+              Subscribe
+            </button>
+          </div>
+          <p class="text-primary text-sm mt-2 md:text-left text-center">
+            Get the latest updates on new collections<br class="lg:block hidden">and exclusive offers
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="bg-orange-100 bottom-bar">
+      <div class="container px-5 py-6 mx-auto flex items-center sm:flex-row flex-col">
+        <a class="flex title-font font-medium items-center md:justify-start justify-center text-dark">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round"
+            stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-orange-600 rounded-full"
+            viewBox="0 0 24 24">
+            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+          </svg>
+          <span class="ml-3 text-xl">SSY-Fabrics</span>
+        </a>
+        <p class="text-sm text-primary sm:ml-6 sm:mt-0 mt-4">© 2025 SSY-Fabrics —
+          <a href="https://twitter.com/ssyfabrics" rel="noopener noreferrer" class="text-accent ml-1"
+            target="_blank">@ssyfabrics</a>
+        </p>
+        <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Our Brands</h1>
+        <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Premium unstitched lawn, latha, and cotton fabrics — soft,
+          stylish, breathable, and perfect for every occasion.</p>
+      </div>
+      <div class="flex flex-wrap -m-2">
+
+        <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+          <a class="text-gray-500">
+            <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5"
+              viewBox="0 0 24 24">
+              <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+            </svg>
+          </a>
+          <a class="ml-3 text-gray-500">
+            <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5"
+              viewBox="0 0 24 24">
+              <path
+                d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+              </path>
+            </svg>
+          </a>
+          <a class="ml-3 text-gray-500">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              class="w-5 h-5" viewBox="0 0 24 24">
+              <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+              <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+            </svg>
+          </a>
+          <a class="ml-3 text-gray-500">
+            <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+              stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+              <path stroke="none"
+                d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z">
+              </path>
+              <circle cx="4" cy="4" r="2" stroke="none"></circle>
+            </svg>
+          </a>
+        </span>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
